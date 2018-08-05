@@ -1,0 +1,65 @@
+/* *******************Estilos cabecera******************** */
+
+.cabecera {
+    margin-top: 10px;
+    height: 70px;
+    position: relative;
+    background: rgba(#233142, 0.5);
+    border-radius: 15px 15px 0 0;
+    .contenedor {
+        padding-top: 8px;
+        display: flex;
+        justify-content: space-between;
+        .logo {
+            width: 100px;
+            margin-left: 5px;
+            img {
+                width: 100px;
+            }
+        }
+        .icon-menu {
+            display: block;
+            width: 40px;
+            height: 40px; // background: #fba919;
+            background: rgba(#2aa9d2, .5);
+            text-align: center;
+            line-height: 45px; //color: #fff;
+            border-radius: 50%;
+            margin: 10px;
+            cursor: pointer;
+        }
+        .nav {
+            margin-right: 5px;
+            position: absolute;
+            top: 70px;
+            width: 100%;
+            left: -110%;
+            transition: all 0.4s;
+            .menu {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                .menu_item {
+                    .menu_link {
+                        display: block;
+                        padding: 15px;
+                        background: #233142;
+                        text-decoration: none;
+                        color: #fff;
+                        &:hover:not(.select) {
+                            background: #2aa9d2;
+                            color: #005874;
+                        }
+                    }
+                    .select {
+                        background: #2aa9d2;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        .mostrar {
+            left: 0;
+        }
+    }
+}

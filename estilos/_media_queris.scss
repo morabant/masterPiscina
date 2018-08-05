@@ -1,0 +1,82 @@
+/* ************estilos responsive******************* */
+
+/* estilos responsi cabecera */
+
+@media screen and (min-width:768px) {
+    .cabecera {
+        .contenedor {
+            .icon-menu {
+                display: none;
+            }
+            .nav {
+                position: static;
+                display: flex;
+                justify-content: flex-end;
+                .menu {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .menu_item {
+                        .menu_link {
+                            background: none;
+                            padding: 10px;
+                            border-radius: 10px;
+                            margin-right: 2px;
+                            text-align: center;
+                            &:hover:not(.select) {
+                                background: #2aa9d2;
+                                color: #005874;
+                                box-shadow: 3px 3px 3px #005874;
+                            }
+                        }
+                        .select {
+                            background: #2aa9d2;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /***************** estilos responsi banner********** */
+    .banner {
+        h2 {
+            font-size: 2.5em;
+        }
+        .banner_txt {
+            color: #fff;
+        }
+    }
+    .main {
+        .fila {
+            .columna {
+                figure {
+                    /* flex: 50%;
+                    max-width: 50%; */
+                    flex-basis: 48%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    /* flex: 25%;
+    max-width: 25%; */
+    .main {
+        .fila {
+            .columna {
+                /* display: flex;
+                flex-wrap: wrap; */
+                figure {
+                    /* flex: 25%;
+                    max-width: 25%; */
+                    flex-basis: 30%;
+                    /* img {
+            height: 25vh;
+          } */
+                }
+            }
+        }
+    }
+}
