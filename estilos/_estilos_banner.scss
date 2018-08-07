@@ -1,8 +1,7 @@
 .banner {
     position: relative;
     top: -70px;
-    z-index: -1000; //border-radius: 15px;
-    //border: 1px solid;
+    z-index: -1000;
     .figure {
         width: 100%;
         .banner_img {
@@ -18,12 +17,17 @@
         transform: translate(-50%, -30%);
         .banner_txt {
             text-align: center;
+            background: rgba( #090a0a, .5);
+            color: #fff;
+            font-size: 1.3em;
         }
         h2 {
+            background: rgba( #090a0a, .5);
             text-align: center;
+            font-size: 2em; //text-shadow: 3px 3px 3px #fff;
             color: #FE0088;
             span {
-                color: #0F96C5;
+                color: #0F96C5; //text-shadow: 3px 3px 3px #0F96C5;
             }
         }
         /* .banner_txt {

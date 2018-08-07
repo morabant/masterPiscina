@@ -5,7 +5,7 @@ html(lang="es")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
         link(href="../estilos/estilos.css", rel="stylesheet")
-        link(type="../image/x-icon" href="imagenes/logo.png" rel="shortcut icon") 
+        link(type="image/x-icon" href="../imagenes/logo.png" rel="shortcut icon") 
         link(href="../estilos/icon_menu/styles.css", rel="stylesheet")
         title Master Piscina
     body
@@ -21,15 +21,15 @@ html(lang="es")
                             li.menu_item
                                a.menu_link.select(href="../index.html") Inicio
                             li.menu_item
-                               a.menu_link(href="") Nosotros
+                               a.menu_link(href="nosotros.html") Nosotros
                             li.menu_item
                                a.menu_link(href="servicios.html") Servicios
                             li.menu_item
-                               a.menu_link(href="") Proyectos
+                               a.menu_link(href="proyectos.html") Proyectos
                             li.menu_item
-                               a.menu_link(href="") Contacto
+                               a.menu_link(href="contacto.html") Contacto
                             li.menu_item
-                               a.menu_link(href="") Otros 
+                               a.menu_link(href="otros.html") Otros 
                                  
                              
             .banner  <!-- banner-->
@@ -38,9 +38,9 @@ html(lang="es")
                 .contenedor
                     h2 Master
                         span Piscina
-                    p.banner_txt  Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    p.banner_txt  Mano de obra especializada en el diseño y construción de piscinas.
             main.main  <!-- contenedor principal-->
-                h2 Nuestros prinsipales servicios
+                h2 Nuestros principales servicios
                 .fila
                     .columna
                         figure
@@ -62,7 +62,14 @@ html(lang="es")
                             img(src="../imagenes/biodigestor.jpg", alt="") 
                             p Servicio de instalación de biodigestores  
                         
-                                    
-        footer.pie
-
+            .contenedor_btn    
+                .btn 
+                    a(href="../index.html") cotizar                        
+        footer.footer
+            .contenedor_footer
+                h2   &copy; 2018  
+                    span Master
+                    span Piscina
+                p Todos los derechos reservados
+                p Desarrolado por  Manuel Moro Abanto
         script(src="../js/menu.js")            

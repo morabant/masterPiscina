@@ -1,0 +1,139 @@
+/* .main_proyectos {
+  .fila {
+    display: flex;
+    flex-wrap: wrap;
+    .columna {
+      display: flex;
+      flex-wrap: wrap;
+      flex: 100%;
+      width: 100%;
+      figure {
+        flex: 100%;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(min-width:600px) {
+  .main_proyectos {
+    display: flex;
+    //flex-wrap: wrap;
+    h2 {
+      flex: 100%;
+    }
+    .fila {
+      display: flex;
+      flex-wrap: wrap;
+      border: 1px solid; //height: 80vh;
+      //margin-bottom: 5px;
+      flex: 100%;
+      .columna1 {
+        flex: 50%;
+        figure {
+          //flex: 50%;
+          // border: 1px solid;
+          img {
+            width: 100%;
+            height: 80vh;
+          }
+        }
+      }
+      .columna {
+        flex: 50%;
+        height: 100%;
+        figure {
+          padding: 0;
+          margin: 0;
+          img {
+            width: 100%;
+            height: 39vh;
+            padding: 0 2px;
+          }
+        }
+      }
+    }
+  }
+}
+/* 
+@media screen and (min-width: 1000px) {
+  .main_proyectos {
+    .fila {
+      display: flex;
+      flex: 50%;
+    }
+  }
+}
+ */
+
+/* .main_proyectos {
+  .fila {
+    width: 100%;
+    .columna {
+      figure {
+        width: 100%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width:600px) {
+  .main_proyectos {
+    display: flex;
+    .fila {
+      .columna {
+        figure {
+          width: 100%;
+          img {
+            width: 100%;
+            height: 40vh;
+          }
+        }
+      }
+    }
+  }
+} */
+
+.main_proyectos {
+  margin-top: -60px;
+  h2 {
+    // border: 1px solid;
+    color: #005792;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase; //background: #262626;
+  }
+  h3 {
+    text-align: center;
+  }
+  .fila {
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #13334c;
+    ;
+    margin-bottom: 5px;
+    border-radius: 15px; //background: rgba(#0F96C5, .4);
+    figure {
+      img {
+        width: 100%;
+        border-radius: 15px;
+      }
+    }
+    p {
+      text-align: center;
+      padding: 10px;
+      width: 100%;
+      background: rgba(#0F96C5, .5);
+      border-radius: 10px;
+      text-transform: uppercase;
+      color: #262626;
+    }
+  }
+}

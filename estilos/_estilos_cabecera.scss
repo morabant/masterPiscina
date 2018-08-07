@@ -35,6 +35,7 @@
             width: 100%;
             left: -110%;
             transition: all 0.4s;
+            z-index: 1000;
             .menu {
                 list-style: none;
                 padding: 0;
@@ -43,7 +44,7 @@
                     .menu_link {
                         display: block;
                         padding: 15px;
-                        background: #233142;
+                        background: rgba( #233142, .8);
                         text-decoration: none;
                         color: #fff;
                         &:hover:not(.select) {
@@ -60,6 +61,7 @@
         }
         .mostrar {
             left: 0;
+            /* width: 50%; */
         }
     }
 }
